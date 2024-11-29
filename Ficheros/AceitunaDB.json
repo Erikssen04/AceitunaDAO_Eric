@@ -1,0 +1,172 @@
+{
+  "almazaras" : {
+    "lista" : [ {
+      "nombre" : "Almazara El Olivo",
+      "ubicacion" : "Granada",
+      "capacidad" : 2254.0,
+      "id" : 1
+    }, {
+      "nombre" : "Aceites del Sur",
+      "ubicacion" : "Jaén",
+      "capacidad" : 800.0,
+      "id" : 2
+    }, {
+      "nombre" : "La Joya de Andalucía",
+      "ubicacion" : "Sevilla",
+      "capacidad" : 400.0,
+      "id" : 3
+    } ]
+  },
+  "cuadrillas" : {
+    "lista" : [ {
+      "nombre" : "Cuadrilla 1",
+      "supervisor_id" : 1,
+      "id" : 1
+    }, {
+      "nombre" : "Cuadrilla 2",
+      "supervisor_id" : 2,
+      "id" : 2
+    }, {
+      "nombre" : "Cuadrilla 3",
+      "supervisor_id" : 3,
+      "id" : 3
+    }, {
+      "nombre" : "Cuadrilla 4",
+      "supervisor_id" : 4,
+      "id" : 4
+    }, {
+      "nombre" : "Cuadrilla 5",
+      "supervisor_id" : 5,
+      "id" : 5
+    } ]
+  },
+  "olivares" : {
+    "lista" : [ {
+      "ubicacion" : "Granada",
+      "hectareas" : 50.0,
+      "produccionAnual" : 1200.0,
+      "id" : 1
+    }, {
+      "ubicacion" : "Jaén",
+      "hectareas" : 70.0,
+      "produccionAnual" : 1500.0,
+      "id" : 2
+    }, {
+      "ubicacion" : "Sevilla",
+      "hectareas" : 60.0,
+      "produccionAnual" : 1400.0,
+      "id" : 3
+    }, {
+      "ubicacion" : "Córdoba",
+      "hectareas" : 80.0,
+      "produccionAnual" : 1800.0,
+      "id" : 4
+    }, {
+      "ubicacion" : "Málaga",
+      "hectareas" : 45.0,
+      "produccionAnual" : 1000.0,
+      "id" : 5
+    } ]
+  },
+  "producciones" : {
+    "lista" : [ {
+      "cuadrillaId" : 1,
+      "olivarId" : 1,
+      "almazaraId" : 1,
+      "fecha" : "2024-11-01",
+      "cantidadRecolectada" : 1500.0,
+      "id" : 1
+    }, {
+      "cuadrillaId" : 2,
+      "olivarId" : 2,
+      "almazaraId" : 2,
+      "fecha" : "2024-11-05",
+      "cantidadRecolectada" : 1800.0,
+      "id" : 2
+    }, {
+      "cuadrillaId" : 3,
+      "olivarId" : 3,
+      "almazaraId" : 3,
+      "fecha" : "2024-11-10",
+      "cantidadRecolectada" : 2000.0,
+      "id" : 3
+    }, {
+      "cuadrillaId" : 4,
+      "olivarId" : 4,
+      "almazaraId" : 1,
+      "fecha" : "2024-11-15",
+      "cantidadRecolectada" : 1700.0,
+      "id" : 4
+    }, {
+      "cuadrillaId" : 5,
+      "olivarId" : 5,
+      "almazaraId" : 2,
+      "fecha" : "2024-11-20",
+      "cantidadRecolectada" : 1900.0,
+      "id" : 5
+    } ]
+  },
+  "trabajadores" : {
+    "lista" : [ {
+      "nombre" : "Carlos López",
+      "edad" : 30,
+      "puesto" : "Recolector",
+      "salario" : 1500.0,
+      "id" : 1
+    }, {
+      "nombre" : "Ana Pérez",
+      "edad" : 28,
+      "puesto" : "Recolectora",
+      "salario" : 1400.0,
+      "id" : 2
+    }, {
+      "nombre" : "Juan García",
+      "edad" : 35,
+      "puesto" : "Encargado",
+      "salario" : 2000.0,
+      "id" : 3
+    }, {
+      "nombre" : "Marta Rodríguez",
+      "edad" : 25,
+      "puesto" : "Recolectora",
+      "salario" : 1350.0,
+      "id" : 4
+    }, {
+      "nombre" : "Luis Martínez",
+      "edad" : 40,
+      "puesto" : "Conductor",
+      "salario" : 1800.0,
+      "id" : 5
+    }, {
+      "nombre" : "Sofía Gómez",
+      "edad" : 32,
+      "puesto" : "Recolectora",
+      "salario" : 1450.0,
+      "id" : 6
+    }, {
+      "nombre" : "Pedro Sánchez",
+      "edad" : 29,
+      "puesto" : "Recolector",
+      "salario" : 1500.0,
+      "id" : 7
+    }, {
+      "nombre" : "Clara Fernández",
+      "edad" : 34,
+      "puesto" : "Contable",
+      "salario" : 2100.0,
+      "id" : 8
+    }, {
+      "nombre" : "Raúl Torres",
+      "edad" : 27,
+      "puesto" : "Recolector",
+      "salario" : 1400.0,
+      "id" : 9
+    }, {
+      "nombre" : "Lucía Morales",
+      "edad" : 31,
+      "puesto" : "Recolectora",
+      "salario" : 1550.0,
+      "id" : 10
+    } ]
+  }
+}

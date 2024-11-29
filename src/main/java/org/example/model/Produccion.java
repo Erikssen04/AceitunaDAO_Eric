@@ -1,12 +1,29 @@
 package org.example.model;
 
+import javax.xml.bind.annotation.*;
+
+@XmlRootElement(name = "Produccion")
 public class Produccion {
+
+
     private int idProduccion;
+
+
     private int cuadrillaId;
+
+
     private int olivarId;
+
+
     private int almazaraId;
+
+
     private String fecha;
+
+
     private double cantidadRecolectada;
+
+    public Produccion() {}
 
     public Produccion(int idProduccion, int cuadrillaId, int olivarId, int almazaraId, String fecha, double cantidadRecolectada) {
         this.idProduccion = idProduccion;
@@ -25,6 +42,7 @@ public class Produccion {
         this.cantidadRecolectada = cantidadRecolectada;
     }
 
+    @XmlElement(name = "id")
     public int getId() {
         return idProduccion;
     }
@@ -33,6 +51,7 @@ public class Produccion {
         this.idProduccion = idProduccion;
     }
 
+    @XmlElement(name = "ID_cuadrilla")
     public int getCuadrillaId() {
         return cuadrillaId;
     }
@@ -41,6 +60,7 @@ public class Produccion {
         this.cuadrillaId = cuadrillaId;
     }
 
+    @XmlElement(name = "ID_olivar")
     public int getOlivarId() {
         return olivarId;
     }
@@ -49,6 +69,7 @@ public class Produccion {
         this.olivarId = olivarId;
     }
 
+    @XmlElement(name = "ID_almazara")
     public int getAlmazaraId() {
         return almazaraId;
     }
@@ -57,6 +78,7 @@ public class Produccion {
         this.almazaraId = almazaraId;
     }
 
+    @XmlElement(name = "ID_fecha")
     public String getFecha() {
         return fecha;
     }
@@ -65,6 +87,7 @@ public class Produccion {
         this.fecha = fecha;
     }
 
+    @XmlElement(name = "ID_cantidadRecolectada")
     public double getCantidadRecolectada() {
         return cantidadRecolectada;
     }

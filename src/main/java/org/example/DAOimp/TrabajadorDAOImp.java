@@ -132,7 +132,8 @@ public class TrabajadorDAOImp implements TrabajadorDAO {
     public List<Trabajador> getTrabajadoresByCuadrilla(int idCuadrilla) {
         List<Trabajador> trabajadores = new ArrayList<>();
         String query = "SELECT t.id, t.nombre, t.edad, t.puesto, t.salario " +
-                "FROM trabajador t INNER JOIN cuadrilla_trabajador ct ON t.id = ct.trabajador_id " +
+                "FROM trabajador t " +
+                "INNER JOIN cuadrilla_trabajador ct ON t.id = ct.trabajador_id " +
                 "WHERE ct.cuadrilla_id = ?";
 
         try(PreparedStatement stmt = connection.prepareStatement(query)){

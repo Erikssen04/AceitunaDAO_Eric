@@ -126,7 +126,8 @@ public class OlivarDAOImp implements OlivarDAO {
     public List<Olivar> getOlivaresByCuadrilla(int idCuadrilla){
         List<Olivar> olivares = new ArrayList<>();
         String query = "SELECT o.id, o.ubicacion, o.hectareas, o.produccionAnual " +
-                "FROM olivar INNER JOIN cuadrilla_olivar co ON o.id = co.olivar_id " +
+                "FROM olivar " +
+                "INNER JOIN cuadrilla_olivar co ON o.id = co.olivar_id " +
                 "WHERE co.cuadrilla_id = ?";
 
         try(PreparedStatement stmt = connection.prepareStatement(query)){

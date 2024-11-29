@@ -1,11 +1,26 @@
 package org.example.model;
 
+import javax.xml.bind.annotation.*;
+
+@XmlRootElement(name = "Trabajadores")
 public class Trabajador {
+
+
     private int idTrabajador;
+
+
     private String nombre;
+
+
     private int edad;
+
+
     private String puesto;
+
+
     private double salario;
+
+    public Trabajador() {}
 
     public Trabajador(int idTrabajador, String nombre, int edad, String puesto, double salario) {
         this.idTrabajador = idTrabajador;
@@ -22,6 +37,7 @@ public class Trabajador {
         this.salario = salario;
     }
 
+    @XmlElement(name = "id")
     public int getId() {
         return idTrabajador;
     }
@@ -30,6 +46,7 @@ public class Trabajador {
         this.idTrabajador = idTrabajador;
     }
 
+    @XmlElement(name = "nombre")
     public String getNombre() {
         return nombre;
     }
@@ -38,6 +55,7 @@ public class Trabajador {
         this.nombre = nombre;
     }
 
+    @XmlElement(name = "edad")
     public int getEdad() {
         return edad;
     }
@@ -46,6 +64,7 @@ public class Trabajador {
         this.edad = edad;
     }
 
+    @XmlElement(name = "puesto")
     public String getPuesto() {
         return puesto;
     }
@@ -54,6 +73,7 @@ public class Trabajador {
         this.puesto = puesto;
     }
 
+    @XmlElement(name = "salario")
     public double getSalario() {
         return salario;
     }

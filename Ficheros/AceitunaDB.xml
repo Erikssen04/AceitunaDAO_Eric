@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Campana_Aceituna>
+    <Almazaras>
+        <Almazara>
+            <capacidad>2254.0</capacidad>
+            <id>1</id>
+            <nombre>Almazara El Olivo</nombre>
+            <ubicacion>Granada</ubicacion>
+        </Almazara>
+        <Almazara>
+            <capacidad>800.0</capacidad>
+            <id>2</id>
+            <nombre>Aceites del Sur</nombre>
+            <ubicacion>Jaén</ubicacion>
+        </Almazara>
+        <Almazara>
+            <capacidad>400.0</capacidad>
+            <id>3</id>
+            <nombre>La Joya de Andalucía</nombre>
+            <ubicacion>Sevilla</ubicacion>
+        </Almazara>
+    </Almazaras>
+    <Cuadrillas>
+        <Cuadrilla>
+            <id>1</id>
+            <nombre>Cuadrilla 1</nombre>
+            <supervisorId>1</supervisorId>
+        </Cuadrilla>
+        <Cuadrilla>
+            <id>2</id>
+            <nombre>Cuadrilla 2</nombre>
+            <supervisorId>2</supervisorId>
+        </Cuadrilla>
+        <Cuadrilla>
+            <id>3</id>
+            <nombre>Cuadrilla 3</nombre>
+            <supervisorId>3</supervisorId>
+        </Cuadrilla>
+        <Cuadrilla>
+            <id>4</id>
+            <nombre>Cuadrilla 4</nombre>
+            <supervisorId>4</supervisorId>
+        </Cuadrilla>
+        <Cuadrilla>
+            <id>5</id>
+            <nombre>Cuadrilla 5</nombre>
+            <supervisorId>5</supervisorId>
+        </Cuadrilla>
+    </Cuadrillas>
+    <Olivares>
+        <Olivar>
+            <hectareas>50.0</hectareas>
+            <id>1</id>
+            <produccionAnual>1200.0</produccionAnual>
+            <ubicacion>Granada</ubicacion>
+        </Olivar>
+        <Olivar>
+            <hectareas>70.0</hectareas>
+            <id>2</id>
+            <produccionAnual>1500.0</produccionAnual>
+            <ubicacion>Jaén</ubicacion>
+        </Olivar>
+        <Olivar>
+            <hectareas>60.0</hectareas>
+            <id>3</id>
+            <produccionAnual>1400.0</produccionAnual>
+            <ubicacion>Sevilla</ubicacion>
+        </Olivar>
+        <Olivar>
+            <hectareas>80.0</hectareas>
+            <id>4</id>
+            <produccionAnual>1800.0</produccionAnual>
+            <ubicacion>Córdoba</ubicacion>
+        </Olivar>
+        <Olivar>
+            <hectareas>45.0</hectareas>
+            <id>5</id>
+            <produccionAnual>1000.0</produccionAnual>
+            <ubicacion>Málaga</ubicacion>
+        </Olivar>
+    </Olivares>
+    <Producciones>
+        <Produccion>
+            <ID_almazara>1</ID_almazara>
+            <ID_cantidadRecolectada>1500.0</ID_cantidadRecolectada>
+            <ID_cuadrilla>1</ID_cuadrilla>
+            <ID_fecha>2024-11-01</ID_fecha>
+            <id>1</id>
+            <ID_olivar>1</ID_olivar>
+        </Produccion>
+        <Produccion>
+            <ID_almazara>2</ID_almazara>
+            <ID_cantidadRecolectada>1800.0</ID_cantidadRecolectada>
+            <ID_cuadrilla>2</ID_cuadrilla>
+            <ID_fecha>2024-11-05</ID_fecha>
+            <id>2</id>
+            <ID_olivar>2</ID_olivar>
+        </Produccion>
+        <Produccion>
+            <ID_almazara>3</ID_almazara>
+            <ID_cantidadRecolectada>2000.0</ID_cantidadRecolectada>
+            <ID_cuadrilla>3</ID_cuadrilla>
+            <ID_fecha>2024-11-10</ID_fecha>
+            <id>3</id>
+            <ID_olivar>3</ID_olivar>
+        </Produccion>
+        <Produccion>
+            <ID_almazara>1</ID_almazara>
+            <ID_cantidadRecolectada>1700.0</ID_cantidadRecolectada>
+            <ID_cuadrilla>4</ID_cuadrilla>
+            <ID_fecha>2024-11-15</ID_fecha>
+            <id>4</id>
+            <ID_olivar>4</ID_olivar>
+        </Produccion>
+        <Produccion>
+            <ID_almazara>2</ID_almazara>
+            <ID_cantidadRecolectada>1900.0</ID_cantidadRecolectada>
+            <ID_cuadrilla>5</ID_cuadrilla>
+            <ID_fecha>2024-11-20</ID_fecha>
+            <id>5</id>
+            <ID_olivar>5</ID_olivar>
+        </Produccion>
+    </Producciones>
+    <Tranajadores>
+        <Trabajador>
+            <edad>30</edad>
+            <id>1</id>
+            <nombre>Carlos López</nombre>
+            <puesto>Recolector</puesto>
+            <salario>1500.0</salario>
+        </Trabajador>
+        <Trabajador>
+            <edad>28</edad>
+            <id>2</id>
+            <nombre>Ana Pérez</nombre>
+            <puesto>Recolectora</puesto>
+            <salario>1400.0</salario>
+        </Trabajador>
+        <Trabajador>
+            <edad>35</edad>
+            <id>3</id>
+            <nombre>Juan García</nombre>
+            <puesto>Encargado</puesto>
+            <salario>2000.0</salario>
+        </Trabajador>
+        <Trabajador>
+            <edad>25</edad>
+            <id>4</id>
+            <nombre>Marta Rodríguez</nombre>
+            <puesto>Recolectora</puesto>
+            <salario>1350.0</salario>
+        </Trabajador>
+        <Trabajador>
+            <edad>40</edad>
+            <id>5</id>
+            <nombre>Luis Martínez</nombre>
+            <puesto>Conductor</puesto>
+            <salario>1800.0</salario>
+        </Trabajador>
+        <Trabajador>
+            <edad>32</edad>
+            <id>6</id>
+            <nombre>Sofía Gómez</nombre>
+            <puesto>Recolectora</puesto>
+            <salario>1450.0</salario>
+        </Trabajador>
+        <Trabajador>
+            <edad>29</edad>
+            <id>7</id>
+            <nombre>Pedro Sánchez</nombre>
+            <puesto>Recolector</puesto>
+            <salario>1500.0</salario>
+        </Trabajador>
+        <Trabajador>
+            <edad>34</edad>
+            <id>8</id>
+            <nombre>Clara Fernández</nombre>
+            <puesto>Contable</puesto>
+            <salario>2100.0</salario>
+        </Trabajador>
+        <Trabajador>
+            <edad>27</edad>
+            <id>9</id>
+            <nombre>Raúl Torres</nombre>
+            <puesto>Recolector</puesto>
+            <salario>1400.0</salario>
+        </Trabajador>
+        <Trabajador>
+            <edad>31</edad>
+            <id>10</id>
+            <nombre>Lucía Morales</nombre>
+            <puesto>Recolectora</puesto>
+            <salario>1550.0</salario>
+        </Trabajador>
+    </Tranajadores>
+</Campana_Aceituna>

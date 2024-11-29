@@ -125,7 +125,8 @@ public class AlmazaraDAOImp implements AlmazaraDAO {
 
     public List<Almazara> getAlmazarasByCuadrilla(int idCuadrilla){
         List<Almazara> almazaras = new ArrayList<>();
-        String query = "SELECT a.id, a.nombre, a.ubicacion, a.capacidad FROM almazara a " +
+        String query = "SELECT a.id, a.nombre, a.ubicacion, a.capacidad " +
+                "FROM almazara a " +
                 "INNER JOIN produccion p ON a.id = p.almazara_id " +
                 "WHERE p.cuadrilla_id = ?";
 

@@ -1,9 +1,19 @@
 package org.example.model;
 
+import javax.xml.bind.annotation.*;
+
+@XmlRootElement(name = "Cuadrilla")
 public class Cuadrilla {
+
     private int idCuadrilla;
+
+
     private String nombre;
+
+
     private int supervisor_id;
+
+    public Cuadrilla() {}
 
     public Cuadrilla(int idCuadrilla, String nombre, int supervisor_id) {
         this.idCuadrilla = idCuadrilla;
@@ -16,6 +26,7 @@ public class Cuadrilla {
         this.supervisor_id = supervisor_id;
     }
 
+    @XmlElement(name = "id")
     public int getId() {
         return idCuadrilla;
     }
@@ -24,6 +35,7 @@ public class Cuadrilla {
         this.idCuadrilla = idCuadrilla;
     }
 
+    @XmlElement(name = "nombre")
     public String getNombre() {
         return nombre;
     }
@@ -32,6 +44,7 @@ public class Cuadrilla {
         this.nombre = nombre;
     }
 
+    @XmlElement(name = "supervisorId")
     public int getSupervisor_id() {
         return supervisor_id;
     }

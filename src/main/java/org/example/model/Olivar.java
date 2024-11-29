@@ -1,10 +1,23 @@
 package org.example.model;
 
+import javax.xml.bind.annotation.*;
+
+@XmlRootElement(name = "Olivar")
 public class Olivar {
+
+
     private int idOlivar;
+
+
     private String ubicacion;
+
+
     private double hectareas;
+
+
     private double produccionAnual;
+
+    public Olivar() {}
 
     public Olivar(int idOlivar, String ubicacion, double hectareas, double produccionAnual) {
         this.idOlivar = idOlivar;
@@ -19,6 +32,7 @@ public class Olivar {
         this.produccionAnual = produccionAnual;
     }
 
+    @XmlElement(name = "id")
     public int getId() {
         return idOlivar;
     }
@@ -27,6 +41,7 @@ public class Olivar {
         this.idOlivar = idOlivar;
     }
 
+    @XmlElement(name = "ubicacion")
     public String getUbicacion() {
         return ubicacion;
     }
@@ -35,6 +50,7 @@ public class Olivar {
         this.ubicacion = ubicacion;
     }
 
+    @XmlElement(name = "hectareas")
     public double getHectareas() {
         return hectareas;
     }
@@ -43,6 +59,7 @@ public class Olivar {
         this.hectareas = hectareas;
     }
 
+    @XmlElement(name = "produccionAnual")
     public double getProduccionAnual() {
         return produccionAnual;
     }

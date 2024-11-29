@@ -121,7 +121,8 @@ public class CuadrillaDAOImp implements CuadrillaDAO {
 
     public List<Cuadrilla> getCuadrillasByOlivar(int idOlivar){
         List<Cuadrilla> cuadrillas = new ArrayList<>();
-        String query = "SELECT c.id, c.nombre, c.supervisor_id FROM cuadrilla c " +
+        String query = "SELECT c.id, c.nombre, c.supervisor_id " +
+                "FROM cuadrilla c " +
                 "INNER JOIN cuadrilla_olivar co ON c.id = co.cuadrilla_id " +
                 "WHERE co.olivar_id = ?";
 
